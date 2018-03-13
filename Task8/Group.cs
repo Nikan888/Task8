@@ -21,6 +21,11 @@ namespace Task8
             listOfAnimals = new List<T>();
             groupOfAnimals = type;
         }
+
+        public List<T> GetAll()
+        {
+            return listOfAnimals;
+        }
         
         public void AddItem(T item)
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task8
 {
-    public class Bug : IAnimalWorld
+    public class Bug : IAnimalWorld, IFlyable
     {
         public string Name { get; set; }
         public int NumberOfLimbs { get; set; }
@@ -19,7 +19,12 @@ namespace Task8
 
         public void Voice()
         {
-            Console.WriteLine("Buzz");
+            Console.WriteLine("Voice: (Buzz)");
+        }
+
+        public void Fly()
+        {
+            Console.WriteLine("Flying");
         }
     }
 }

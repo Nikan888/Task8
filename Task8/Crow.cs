@@ -19,7 +19,7 @@ namespace Task8
 
         public void Voice()
         {
-            Console.WriteLine("Cah");
+            Console.WriteLine("Voice: (Cah)");
         }
 
         public void Fly()

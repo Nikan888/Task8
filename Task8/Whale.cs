@@ -19,7 +19,7 @@ namespace Task8
 
         public void Voice()
         {
-            Console.WriteLine("Sing");
+            Console.WriteLine("Voice: (Sing)");
         }
         
         public void Swim()
